@@ -1,0 +1,316 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+header {
+    background: url('../images/banner/banner3.png') no-repeat center center/cover;
+    /* background: url('../images/banner/banner3.png'), lightgray 50% /  cover no-repeat; */
+
+}
+
+nav {
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.363);
+}
+
+.bannar {
+
+    /* display: flex; */
+    padding: 180px 230px;
+    text-align: right;
+}
+
+.banner-titel {
+    color: #FFF;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.banner-pera {
+    color: #FFF;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    /* width: 40%; */
+    margin-top: 24;
+}
+
+.primary-btn {
+    width: 160px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+    color: #005FAC;
+
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 32px;
+    border: 0px;
+}
+
+
+
+
+/* section .failor */
+
+.failor-box {
+    display: flex;
+    padding: 140px 225px 140px 206px;
+    gap: 90px;
+
+
+    align-items: end;
+}
+
+.failor-contant {
+    padding: 90px 5px;
+
+}
+
+.failor-contant h1 {
+
+    color: var(--Dark-01, #151414);
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 8px 0px;
+
+}
+
+.failor-contant p {
+    color: var(--Dark-02, #444343);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 16px 0px;
+    /* 162.5% */
+
+
+}
+
+.failor-contant ul li {
+    color: var(--Dark-02, #444343);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    list-style: none;
+    margin: 6px;
+}
+
+.chack-mark {
+    color: #16D887;
+    width: 24px;
+    height: 24px;
+}
+
+/* my plan start */
+
+
+/* ** */
+.side-margin {
+    margin: 130px 230px;
+
+}
+
+.my-plan {
+    background-color: #FFF;
+}
+
+.my-plan .plan-title {
+
+    color: var(--Dark-01, #151414);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 50px;
+}
+
+.plan-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.plan-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.plan-box img {
+    width: 92.958px;
+    height: 92.958px;
+    margin: 8px;
+
+}
+
+.plan-box p {
+    color: var(--Dark-03, #737272);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.plan-box h1 {
+    color: var(--Dark-01, #151414);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 16px 0px;
+}
+
+/* call szection start  */
+
+
+.call-now {
+    background-image: url('../images/watch.png'), linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+    padding: 60px;
+}
+
+.call-now h1 {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.caa-btn {
+    color: #F15B22;
+
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 130px 230px;
+    background: var(--Dark-01, #151414);
+}
+
+.fotter-box {
+    width: 50%;
+    padding: 15px;
+}
+
+.fotter-box h1 {
+    color: #F8F8F8;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 10px;
+}
+
+.fotter-box p {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    margin: 16px;
+}
+
+.link-box {
+    display: flex;
+    height: 46px;
+    padding: 5px;
+
+
+}
+
+.link-box img {
+    height: 46px;
+    width: 46px;
+    margin: 10px;
+
+}
+
+.form-box {}
+
+.form-title {
+    color: #FFF;
+font-family: Work Sans;
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin: 15px 0px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    width: 325px;
+    height: 64px;
+    flex-shrink: 0;
+    background: var(--Dark-01, #151414);
+    border-radius: 8px;
+border: 1px solid #FFF;
+margin: 16px 0px;
+}
+
+form button {
+    width: 170.106px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
